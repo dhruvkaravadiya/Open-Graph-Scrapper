@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.072" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-02-05T16:46:40" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="tiny_og_scraper" timestamp="2024-02-05T16:46:40" tests="6" file="E:\Development\challenge\c13e3a59-5f44-40f7-86a2-0f4bf42c8137\test\index.spec.js" time="2.068" failures="1">
+    <testcase name="tiny_og_scraper Should emit the scrapeStarted event once the processing starts" time="2.012" classname="Should emit the scrapeStarted event once the processing starts">
+      <failure message="Timeout of 2000ms exceeded. For async tests and hooks, ensure &quot;done()&quot; is called; if returning a Promise, ensure it resolves. (E:\Development\challenge\c13e3a59-5f44-40f7-86a2-0f4bf42c8137\test\index.spec.js)" type="Error"><![CDATA[Error: Timeout of 2000ms exceeded. For async tests and hooks, ensure "done()" is called; if returning a Promise, ensure it resolves. (E:\Development\challenge\c13e3a59-5f44-40f7-86a2-0f4bf42c8137\test\index.spec.js)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)]]></failure>
+    </testcase>
+    <testcase name="tiny_og_scraper Should emit an error event if the url is invalid" time="0.006" classname="Should emit an error event if the url is invalid">
+    </testcase>
+    <testcase name="tiny_og_scraper Should emit the scrapeSuccess event once the data is parsed" time="0.006" classname="Should emit the scrapeSuccess event once the data is parsed">
+    </testcase>
+    <testcase name="tiny_og_scraper Should convert the og tags to valid JSON-1" time="0.006" classname="Should convert the og tags to valid JSON-1">
+    </testcase>
+    <testcase name="tiny_og_scraper Should convert the og tags to valid JSON-2" time="0.030" classname="Should convert the og tags to valid JSON-2">
+    </testcase>
+    <testcase name="tiny_og_scraper Should throw a timeout error event if the process does not complete in the timeout period" time="0.002" classname="Should throw a timeout error event if the process does not complete in the timeout period">
+    </testcase>
+  </testsuite>
+</testsuites>
